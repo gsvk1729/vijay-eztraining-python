@@ -36,12 +36,8 @@ print("   *******   ")
 print("    *****    ")
 print("     ***     ")
 print("      *      ")
-
-
 print()
-
 print("my heart:\n")
-
 print(" #        #  ")
 print("#  #    #  # ")
 print("#     #    # ")
@@ -52,17 +48,13 @@ print("    #  #   ")
 print("      #    ")
 
 
-
 #end sep
 print("its",'a','good','day')
 print("all",'is','good')
-
 print()
-
 print("its",'a','good','day',end='**') #In python bydefault print line ends with \n so vcursor after printing move to next line
 #by using end we are saying the compiler to end   the line with ***
 print("all",'is','good')               #this line accompines with day in previous line
-
 print()
 
 print("its",'a','good','day',sep='#')  #each string is seperated by sep instruction  
