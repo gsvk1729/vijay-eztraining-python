@@ -56,28 +56,28 @@ print("its",'a','good','day',end='**') #In python bydefault print line ends with
 #by using end we are saying the compiler to end   the line with ***
 print("all",'is','good')               #this line accompines with day in previous line
 print()
-
 print("its",'a','good','day',sep='#')  #each string is seperated by sep instruction  
 
-#calculations
 
+#calculations
 a=(3*36.32)
 a=a+56.19
 a=a-10
 print("final result is:",a)
 
-# multiple input from user 
 
+# multiple input from user 
 n=int(input("size:"))
 a=list(map(int,input("Numbers:").split()))[:n]
 print(a)
 
-#printing name
 
+#printing name
 print(chr(3125)+chr(3135)+chr(3100)+chr(3119)+chr(3149))
 
-# product of numbers 
 
+
+# product of numbers 
 n=int(input("size:"))
 a=list(map(int,input("Numbers:").split()))[:n]
 prod=1
@@ -85,8 +85,8 @@ for i in a:
     prod=prod*i
 print(prod)
 
-#simple if
 
+#simple if
 n=int(input("enter your room temperature:"))
 if(n>45):
     print("weather is  hottest ")
@@ -101,6 +101,7 @@ elif(0<n<=10):
 else:
     print("out of database")
 
+    
 #swaping texti1=int(input("enter your first number"))
 i2=int(input("enter your second number"))
 print("before swaping")
@@ -113,6 +114,7 @@ print("after swaping")
 print("n1=",i1)
 print("n2=",i2)
 
+
 #swaping without temp
 a,b=input("enter your 2 numbers:").split()
 print("\nBefore swaping")
@@ -122,6 +124,7 @@ a,b=b,a
 print("After swaping")
 print("a=",a)
 print("b=",b)
+
 
 #taking data from user 
 print("INPUT:")
@@ -149,7 +152,3 @@ print("Third Float:",f)
 print("\nFirst String:",g)
 print("Second String:",h)
 print("\nComplex Number:",i)
-
-
-
-
