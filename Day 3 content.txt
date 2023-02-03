@@ -1,0 +1,82 @@
+LIST::::::
+
+creating a list :   l=[1,2,3,"vijay"] 
+list has both positive and negative indexing 
+poistive indexing start from 0 means counting list from first element of list 
+neative index starts from -1  means counting list from last element
+
+
+slicing a list :  l[starting required number:last requied number+1]
+l.append() - add element to the end of the list **** note append will take only one argument
+l.extend(a) - it is used to extend another list a to one list l
+l.insert(1,22) - insert an element in the list at the index 1  then the list become l=[1,22,2,3,"vijay"] 
+l.remove(22) -remove element 22 
+l.pop(3) -removes the element in the index of 3
+l.clear - all clear
+l.index(element) -return index of the given element
+l.count - counts the how much time the element is in the list
+l.sort() -b sort the elements in the order note that sorting not works when your list contains both str and int
+
+
+
+getting user input method 1:
+
+size=int(input("size:"))
+l=[]
+for i in range(size):
+    ele=int(input("element:"))
+    l.append(ele)
+
+getting input from user method 2:
+
+n=list(map(int,input("enter ").split()))
+
+
+comprehension:
+
+defining a list by giving conditions to one list
+
+
+SET::::::::
+
+
+it is defined by using flower braces{}
+it is unorder  so concept of index
+setname.add(element) - it is used to add one new element to the set
+setname.update(elements)- it is used to add more elements to the set ex:- s.update([1,2]) then s={2,1}
+s.discard(element)- removes the element from set it wont show error if element doesnt present in the set
+s.remove(element)- removes the element from set it show error if element doesnt present in the set
+
+sets union is done by pipe(|)
+sets  intersection is done bt &
+sets difference is done by -
+symmetrical difference means removes the symmetrical elements of both set and gives reamining elements in both sets ex -s={1,2,3}
+                                                                                                                        s1={1,4,5}
+                                                                                                                       print("symmetrical difference=",s^s1)
+                                                                                                                  o/p is symmetrical difference= {2, 3, 4, 5}
+
+
+
+TUPLE::::::::
+
+
+defined by normal brackets() or as t=1,2,3
+once defined cant change it again
+only 2 operations
+count(element)- count how many times the  element is
+index(element)- gives the index of elemnt which is  first appered if repeated more than once
+
+
+DICTIONARY:::::::::
+
+
+dictionary contain elements with two units both keys and value 
+both keys and values commonly known is items
+key must be unique
+d.keys returns the keys 
+to get value of a key we should use square braces [] ex d={1:"one"} then d([1])=one
+we can also use d.get(1)= one
+d.update({'c':89})- add one or more element
+d.pop(key)- removes the key value pair
+d.popitem()- removes recently addeditem
+d.setdefault(key,value)
