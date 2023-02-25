@@ -1,0 +1,40 @@
+lambda function :
+it is an ananymous function when we want to use function concept without using function name
+
+
+4 pillar of oops:
+1.Abstraction
+2.Encapsulation
+3.Inheritence
+4.Polymorphism
+
+1.Abstraction:::hiding the implementation part and showing only what is required is abstraction
+example:exe file
+we can make class or method as abstract ,opposite to abstract is concrete
+
+
+2.Encapsulation::::binding data and function into single entity there exists three types
+a)public---- one class info can be accessed by any other class,low level secured
+b)private---can used where it is delcared /no in inheritected class,medium level secured
+c)protected-- can be accessed only where it got declared ...which ever class inhereited from this class there also we can use.it is highly protected
+
+protected is indicated with _ before variable ex:_a
+private is indicated with__  before variable ex:__b
+no indication for public variable ex:c
+
+
+3.Inheritance::
+base class and derived class 
+derived class will inherit properties of base class
+
+base class- parent class
+derived class- child class
+
+types of inheriatance:
+1.single
+2.multiple 
+3.multi level
+4.heirarical
+5.hybrid
+
+
